@@ -25,6 +25,7 @@ bash 'install eclipse' do
     wget #{uri}
     tar xvfz #{file_name}
     mv eclipse #{dir_name}
+    mv eclipse
     rm -f #{file_name}
     cd ../Desktop
     ln -s ../bin/#{dir_name}/eclipse eclipse-x64
