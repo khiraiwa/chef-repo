@@ -2,7 +2,7 @@
     "run_list":
     [
 	"recipe[apt]",
-	"recipe[jdk]",
+/*	"recipe[jdk]",
 	"recipe[emacs24]",
 	"recipe[fonts]",
 	"recipe[scala]",
@@ -10,7 +10,8 @@
 	"recipe[eclipse]",
 	"recipe[eclipse::plugin]",
 	"recipe[dropbox]",
-	"recipe[googlechrome]"
+	"recipe[googlechrome]"*/
+	"recipe[scm]"
     ]
 }
 

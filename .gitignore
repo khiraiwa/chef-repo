@@ -1,2 +1,8 @@
-/cookbooks/
 *~
+cookbooks/
+!data_bags/
+!environments/
+!nodes
+!roles
+!site-cookbooks
+!.gitkeep
