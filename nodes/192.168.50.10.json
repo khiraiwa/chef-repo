@@ -1,0 +1,15 @@
+{
+    "run_list":
+    [
+	"recipe[apt]",
+	"recipe[jdk]",
+	"recipe[emacs24]",
+	"recipe[scala]",
+	"recipe[activator]",
+	"recipe[eclipse]",
+	"recipe[eclipse::plugin]",
+	"recipe[dropbox]",
+	"recipe[googlechrome]"
+    ]
+}
+
