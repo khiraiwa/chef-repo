@@ -19,6 +19,7 @@ bash 'install eclipse' do
   file_name = node['eclipse']['file_name']
   dir_name = node['eclipse']['dir_name']
   code <<-EOC
+    rm -f ./Desktop/eclipse-x64
     mkdir #{install_dir}
     cd bin
     wget #{uri}
@@ -28,7 +29,7 @@ bash 'install eclipse' do
     cd ../Desktop
     ln -s ../bin/#{dir_name}/eclipse eclipse-x64
   EOC
-  creates '/home/vagrant/desktop/eclipse-x64'
+  creates "#{install_dir}/#{dir_name}"
 end
 
 
