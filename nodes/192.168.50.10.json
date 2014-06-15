@@ -4,6 +4,7 @@
 	"recipe[apt]",
 	"recipe[jdk]",
 	"recipe[emacs24]",
+	"recipe[fonts]",
 	"recipe[scala]",
 	"recipe[activator]",
 	"recipe[eclipse]",
